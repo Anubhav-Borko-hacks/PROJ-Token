@@ -1,0 +1,214 @@
+{
+  "contractName": "PROJ",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TaskCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xbbba4865"
+    }
+  ],
+  "bytecode": "0x608060405260008055348015601357600080fd5b506099806100226000396000f3fe608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663bbba486581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820cedee150a8db6201e4c77c152a2bc0867310bac0e68375fe482ed5e99b32888d0029",
+  "deployedBytecode": "0x608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663bbba486581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820cedee150a8db6201e4c77c152a2bc0867310bac0e68375fe482ed5e99b32888d0029",
+  "sourceMap": "27:53:1:-;;;75:1;48:28;;27:53;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:53:1;;;;;;;",
+  "deployedSourceMap": "27:53:1:-;;;;;;;;;;;;;;;;;;;;;;;48:28;;8:9:-1;5:2;;;30:1;27;20:12;5:2;48:28:1;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract PROJ {\r\n    uint256 public TaskCount = 0;\r\n}\r\n",
+  "sourcePath": "C:/Users/KIIT/Desktop/COURSES/PROJ/contracts/PROJ.sol",
+  "ast": {
+    "absolutePath": "/C/Users/KIIT/Desktop/COURSES/PROJ/contracts/PROJ.sol",
+    "exportedSymbols": {
+      "PROJ": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "PROJ",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "TaskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "48:28:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "48:7:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "75:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "27:53:1"
+      }
+    ],
+    "src": "0:82:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/KIIT/Desktop/COURSES/PROJ/contracts/PROJ.sol",
+    "exportedSymbols": {
+      "PROJ": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "PROJ",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "TaskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "48:28:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "48:7:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "75:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "27:53:1"
+      }
+    ],
+    "src": "0:82:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xBCd85A90eCD751d6919dbf47F2eA3483089945f4",
+      "transactionHash": "0x8c6a5199349ff95b6891b0ae892c7419b2ec67b6ab2c9f517d42ffea0f02cb79"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2022-01-16T16:33:55.883Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
